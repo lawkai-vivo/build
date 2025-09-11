@@ -18,6 +18,7 @@ The CI runner should know as less as possible about the internal BlueOS kernel G
 Only minimal knowledge of the toplevel targets("default", "check", ...)
 should be acquired in this CI runner.
 Remaining work, like running tests, should be driven by GN rather than this CI runner.
+TODO: We should migrate to github actions.
 '''
 
 import os
